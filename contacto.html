@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Contacto</title>
+</head>
+
+<body style="font-size:18px; text-align:center;">
+
+<header>
+<h1 style="font-size:40px;">Contacto</h1>
+
+<nav>
+<a href="index.html">Inicio</a>
+<a href="info.html">Información</a>
+<a href="contacto.html">Contacto</a>
+</nav>
+</header>
+
+<h2>Formulario de contacto</h2>
+
+<form method="POST">
+
+<fieldset>
+<legend>Datos de contacto</legend>
+
+<label for="nombre">Nombre:</label><br>
+<input type="text" id="nombre" name="nombre"><br><br>
+
+<label for="email">Email:</label><br>
+<input type="email" id="email" name="email"><br><br>
+
+<label>Motivo:</label><br>
+<select name="motivo">
+<option>Consulta</option>
+<option>Turismo</option>
+<option>Otro</option>
+</select><br><br>
+
+<label>Tipo de visita:</label><br>
+<input type="radio" name="visita"> Individual
+<input type="radio" name="visita"> Grupo<br><br>
+
+<label for="mensaje">Mensaje:</label><br>
+<textarea id="mensaje" name="mensaje"></textarea><br><br>
+
+<input type="submit" value="Enviar">
+<input type="reset" value="Limpiar">
+
+</fieldset>
+
+</form>
+
+</body>
+</html>
